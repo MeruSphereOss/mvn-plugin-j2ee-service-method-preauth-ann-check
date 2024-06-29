@@ -1,0 +1,32 @@
+<settings>
+	<profiles>
+		<profile>
+			<id>ossrh</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<gpg.keyname>AA11076961ACC367FB8F1BDB1BC2F43DE7F66EEC</gpg.keyname>
+				<gpg.passphrase>gpg@Rsa1</gpg.passphrase>
+			</properties>
+		</profile>
+	</profiles>
+
+	<servers>
+		<server>
+			<id>ossrh</id>
+			<username>BWzZ310x</username>
+			<password>cOy5LfOiCMg66+PnNoUtwaOXr3lPVBHkK2wANZUS1O7F</password>
+		</server>
+	</servers>
+	
+	<mirrors>
+		<mirror>
+			<id>insecure-repo-paytm</id>
+			<mirrorOf>external:http:*</mirrorOf>
+			<url>http://artifactorypg.paytm.in/artifactory/libs-release</url>
+			<blocked>false</blocked>
+		</mirror>
+	</mirrors>
+		
+</settings>
