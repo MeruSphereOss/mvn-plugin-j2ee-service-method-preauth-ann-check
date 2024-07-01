@@ -7,7 +7,7 @@
 
 	<groupId>com.merusphere.devops</groupId>
 	<artifactId>mvnplugin.j2ee-srv-method-ann-check</artifactId>
-	<version>0.9.1</version>
+	<version>0.9.2</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>A Maven Plugin for J2EE Spring Service Layer Pre-Authorize Annotation
@@ -220,6 +220,7 @@
 				<version>0.5.0</version>
 				<extensions>true</extensions>
 				<configuration>
+					<deploymentName>mvnplugin.j2ee-srv-method-ann-check@0.9.2</deploymentName>
 					<publishingServerId>ossrh</publishingServerId>
 					<autoPublish>true</autoPublish>
 				</configuration>

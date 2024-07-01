@@ -32,7 +32,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
  * parameter named ignoreAnnotation
  *
  */
-@Mojo(name = "j2ee-srv-method-ann-check", defaultPhase = LifecyclePhase.COMPILE, requiresDependencyResolution = ResolutionScope.TEST)
+@Mojo(name = "j2ee-srv-method-ann-check", defaultPhase = LifecyclePhase.PROCESS_RESOURCES, requiresDependencyResolution = ResolutionScope.TEST)
 public class ServiceLayerAnnAuthoValidatorMojo extends AbstractMojo {
 	/**
 	 * Ignore the list of classes from the configuration parameter named
