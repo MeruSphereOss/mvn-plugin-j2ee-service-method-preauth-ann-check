@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-  <name>spring-service-ann-autho-check</name>
-  <comment>Need a Maven Plugin to find out the number of Methods in the J2EE Spring Service Layer not having Security Annotations in the source code. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <name>mvnplugin.j2ee-srv-method-ann-check</name>
+  <comment>Need a Maven Plugin to find out the number of Methods in the J2EE Spring
+		Service Layer not having Security Annotations in the source code. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
   <projects/>
   <buildSpec>
     <buildCommand>

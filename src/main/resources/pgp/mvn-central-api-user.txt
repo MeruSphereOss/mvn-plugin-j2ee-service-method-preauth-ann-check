@@ -1,4 +1,0 @@
-To keep this in the Settings.xml for local mvn
-
-<username>1UOiBHbd</username>
-<password>7vVsB/9h+Y2VVhLwfkhkiphAsHGJFeZdwxImHmI+tv5h</password>

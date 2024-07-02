@@ -33,11 +33,16 @@ ignoreClassList - Not Mandatory - Ignore the list of classes from the configurat
 ignoreAnnotation - Not Mandatory - Ignore the list of classes/methods having the annotation from the configuration parameter named ignoreAnnotation
 pkg - Mandatory - Scan the classes from the Package name from the configuration parameter named pkg
 
+## System Parameters
+skip-j2ee-srv-method-ann-check - If we pass on this System parameter with value 'true' then this Plugin's goal(s) will be skipped
 
 ## How to run this plugin in your projects
 
+Note : This PlugIn runs as part of the Maven Phase: compile
+If you want to fire it, use the Goal : j2ee-srv-method-ann-check
+
 ```
-mvn com.merusphere.devops:mvnplugin.j2ee-srv-method-ann-check:0.9.1:j2ee-srv-method-ann-check
+mvn clean compile install
 ```
 
 ## Output of this Plugin
