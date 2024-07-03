@@ -286,7 +286,9 @@ public class ServiceLayerAnnAuthoValidatorMojo extends AbstractMojo {
 				fout2.close();
 				getLog().info(new StringBuffer("Generated  Report at " + htmlFile.getAbsolutePath()));
 
-				System.exit(1);
+				if ("true".equals(System.getProperty("exitOnError-j2ee-srv-method-ann-check"))) {
+					System.exit(1);
+				}
 			}
 		} catch (Exception e) {
 			getLog().error(e.getMessage(), e);
