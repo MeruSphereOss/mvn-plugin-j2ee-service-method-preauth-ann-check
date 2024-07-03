@@ -58,7 +58,11 @@
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/5.3.37/spring-core-5.3.37.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-jcl/5.3.37/spring-jcl-5.3.37.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/5.3.37/spring-expression-5.3.37.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/5.3.37/spring-tx-5.3.37.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/security/spring-security-core/5.8.13/spring-security-core-5.8.13.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/security/spring-security-crypto/5.8.13/spring-security-crypto-5.8.13.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2-sources.jar"/>
 </classpath>
