@@ -23,15 +23,17 @@ Add the following Plugin to the POM.xml of your project
 	</plugin>
 ```
 
-## Configuration Parameters
+# Configuration Parameters
 ignoreClassList - Not Mandatory - Ignore the list of classes from the configuration parameter named ignoreClassList
 ignoreAnnotation - Not Mandatory - Ignore the list of classes/methods having the annotation from the configuration parameter named ignoreAnnotation
 pkg - Mandatory - Scan the classes from the Package name from the configuration parameter named pkg
 
-## System Parameters
+# System Parameters
 skip-j2ee-srv-method-ann-check - If we pass on this System parameter with value 'true' then this Plugin's goal(s) will be skipped
 
-## How to run this plugin in your projects
+exitOnError-j2ee-srv-method-ann-check - If we pass on this System parameter with value 'true' then this Plugin will exit the mvn process with Error code 1
+
+# How to run this plugin in your projects
 
 Note : This PlugIn runs as part of the Maven Phase: compile
 If you want to fire it, use the Goal : j2ee-srv-method-ann-check
